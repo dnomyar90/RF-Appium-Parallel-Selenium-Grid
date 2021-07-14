@@ -36,10 +36,10 @@ $ cd grid
 $ java -jar selenium-server-standalone-3.141.59.jar -role hub -port 4444 -timeout 20000 
 ```
 
-### Run Appium Nodes
+### Run Appium Nodes and Connect to Hub
 ```
 cd grid
-$ appium --nodeconfig configOppoF1s.json -p 4723 -bp 5722 --default-capabilities capabilities/configOppoF1s.json
+$ appium --nodeconfig configOppoF1s.json -p 4723 -bp 5722 --default-capabilities capabilities/capsOppoF1s.json
 $ appium --nodeconfig configHuaweiMatepad.json -p 4724 -bp 5724 --default-capabilities capabilities/capsHuaweiMatepad.json
 ```
 
@@ -57,4 +57,8 @@ $ ./run-test.sh [tag] [threads] [application name]
 You definitely can improve this sample to automatically install APK and start Appium server instead of having to do it manually. This sample is provided as-is at bare minimum just to give you idea how to do parallel Appium test on Robot Framework.
 
 ### Demo
-[![Parallel RF Appium Tests](https://j.gifs.com/jZ74m4.gif)](https://www.youtube.com/watch?v=u0nHLsjJnqc)asset
+- Parallel Appium Test Selenium Grid Without Custom Param
+[![Parallel RF Appium Tests](https://github.com/dnomyar90/RF-Appium-Parallel-Selenium-Grid/blob/main/media/default.gif)](https://www.youtube.com/watch?v=eR2acJ8KFU0)asset
+- Parallel Appium Test Selenium Grid With Custom Param
+[![Parallel RF Appium Tests](https://github.com/dnomyar90/RF-Appium-Parallel-Selenium-Grid/blob/main/media/custom.gif)](https://www.youtube.com/watch?v=TsROfi6pbE8)asset
+

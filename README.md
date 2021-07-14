@@ -38,7 +38,7 @@ $ java -jar selenium-server-standalone-3.141.59.jar -role hub -port 4444 -timeou
 
 ### Run Appium Nodes and Connect to Hub
 ```
-cd grid
+$ cd grid
 $ appium --nodeconfig configOppoF1s.json -p 4723 -bp 5722 --default-capabilities capabilities/capsOppoF1s.json
 $ appium --nodeconfig configHuaweiMatepad.json -p 4724 -bp 5724 --default-capabilities capabilities/capsHuaweiMatepad.json
 ```

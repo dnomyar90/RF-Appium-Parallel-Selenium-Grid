@@ -60,11 +60,11 @@ You definitely can improve this sample to automatically install APK and start Ap
 - Parallel Appium Test Selenium Grid Without Custom Param
 
 
-[![Parallel RF Appium Tests](https://github.com/dnomyar90/RF-Appium-Parallel-Selenium-Grid/blob/main/media/default.gif)](https://www.youtube.com/watch?v=eR2acJ8KFU0)asset
+[![Parallel RF Appium Tests](https://github.com/dnomyar90/RF-Appium-Parallel-Selenium-Grid/blob/main/media/default.gif)](https://www.youtube.com/watch?v=eR2acJ8KFU0)
 
 
 - Parallel Appium Test Selenium Grid With Custom Param (Runs only on 1 device)
 
 
-[![Parallel RF Appium Tests](https://github.com/dnomyar90/RF-Appium-Parallel-Selenium-Grid/blob/main/media/custom.gif)](https://www.youtube.com/watch?v=TsROfi6pbE8)asset
+[![Parallel RF Appium Tests](https://github.com/dnomyar90/RF-Appium-Parallel-Selenium-Grid/blob/main/media/custom.gif)](https://www.youtube.com/watch?v=TsROfi6pbE8)
 

@@ -48,7 +48,9 @@ Install APK for calculator sample to your devices. Located [here](https://github
 
 ### How To Run
 ```
-$ ./run-test.sh [tag] [threads] [application name]
+$ ./run-test.sh [tag] [threads] [application name (can be empty)]
+
+./run-test.sh calculator 2
 
 ./run-test.sh calculator 2 CalculatorV1
 ```

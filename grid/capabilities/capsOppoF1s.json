@@ -2,5 +2,6 @@
     "udid": "6DTKK7LBMJ6DPVBY",
     "deviceName": "Oppo F1s",
     "platformVersion": "9.0.0",
-    "platformName": "Android"
+    "platformName": "Android",
+    "applicationName":"CalculatorV2"
   }

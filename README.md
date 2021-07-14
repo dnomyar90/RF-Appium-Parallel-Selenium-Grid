@@ -57,13 +57,13 @@ $ ./run-test.sh [tag] [threads] [application name]
 You definitely can improve this sample to automatically install APK and start Appium server instead of having to do it manually. This sample is provided as-is at bare minimum just to give you idea how to do parallel Appium test on Robot Framework.
 
 ### Demo
-Parallel Appium Test Selenium Grid Without Custom Param
+## Parallel Appium Test Selenium Grid Without Custom Param
 
 
 [![Parallel RF Appium Tests](https://github.com/dnomyar90/RF-Appium-Parallel-Selenium-Grid/blob/main/media/default.gif)](https://www.youtube.com/watch?v=eR2acJ8KFU0)asset
 
 
-Parallel Appium Test Selenium Grid With Custom Param
+## Parallel Appium Test Selenium Grid With Custom Param (Runs only on 1 device)
 
 
 [![Parallel RF Appium Tests](https://github.com/dnomyar90/RF-Appium-Parallel-Selenium-Grid/blob/main/media/custom.gif)](https://www.youtube.com/watch?v=TsROfi6pbE8)asset

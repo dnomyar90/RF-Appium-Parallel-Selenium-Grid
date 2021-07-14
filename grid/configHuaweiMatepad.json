@@ -1,0 +1,21 @@
+{
+    "capabilities":[
+      {
+      "platform": "Android",
+      "applicationName":"CalculatorV1",
+      "deviceName": "Huawei Matepad",
+      "maxInstances": 1
+      }
+    ],
+    "configuration":
+      {
+      "url":"http://127.0.0.1:4724/wd/hub",
+      "cleanUpCycle":2500,
+      "timeout":60000,
+      "maxSession": 2,
+      "register": true,
+      "registerCycle": 1000,
+      "hubPort": 4444,
+      "hubHost": "localhost"
+      }
+  }

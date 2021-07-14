@@ -1,4 +1,4 @@
-# Parallel Appium Test in Robot Framework via Pabot
+# Parallel Appium Test in Robot Framework via Selenium Grid x Pabot
 - [http://robotframework.org/](http://robotframework.org/)
 - [https://pabot.org/](https://pabot.org/)
 - [https://appium.io/](https://appium.io/)
@@ -32,12 +32,14 @@ $ pip install robotframework-pabot
 ```
 ### Run Selenium Grid
 ```
+$ cd grid
 $ java -jar selenium-server-standalone-3.141.59.jar -role hub -port 4444 -timeout 20000 
 ```
 
 ### Run Appium Nodes
 ```
-$ appium --nodeconfig configOppoF1s.json -p 4723 -bp 5722 --default-capabilities configOppoF1s.json
+cd grid
+$ appium --nodeconfig configOppoF1s.json -p 4723 -bp 5722 --default-capabilities capabilities/configOppoF1s.json
 $ appium --nodeconfig configHuaweiMatepad.json -p 4724 -bp 5724 --default-capabilities capabilities/capsHuaweiMatepad.json
 ```
 
